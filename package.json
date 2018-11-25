@@ -1,0 +1,37 @@
+{
+  "name": "shuffle-member-bot",
+  "description": "Shuffle and make group that reaction member for slack",
+  "version": "0.0.0",
+  "author": "miraoto @miraoto",
+  "bin": {
+    "shuffle-member-bot": "./bin/run"
+  },
+  "bugs": "https://github.com/miraoto/shuffle-member-bot/issues",
+  "dependencies": {
+    "@oclif/command": "^1",
+    "@oclif/config": "^1",
+    "@oclif/plugin-help": "^2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/miraoto/shuffle-member-bot",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "MIT",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "shuffle-member-bot"
+  },
+  "repository": "miraoto/shuffle-member-bot",
+  "scripts": {
+    "posttest": "eslint .",
+    "test": "echo NO TESTS"
+  }
+}
